@@ -23,5 +23,7 @@
 - 配置好数据库
 - 访问 `http://127.0.0.1:8099/pages/books.html`
 
+查看效果：[http://124.222.225.241:8099/pages/books.html](http://124.222.225.241:8099/pages/books.html)
+
 ![image](https://user-images.githubusercontent.com/89953983/183794450-0415c1f3-7c30-46c2-ade4-e401645deae1.png)
 
