@@ -18,8 +18,27 @@ public class R {
     private Boolean flag;
     // 调用接口返回数据格式
     private Object data;
+    // 返回状态信息
+    private String msg;
 
     public R(Boolean flag) {
         this.flag = flag;
     }
+
+    public R(Boolean flag,Object data){
+        this.flag = flag;
+        this.data = data;
+    }
+
+    public R(Boolean flag,String msg){
+        this.flag = flag;
+        this.msg = msg;
+    }
+
+    public R(String msg){
+        this.flag = false;
+        this.msg = msg;
+    }
+
+
 }
